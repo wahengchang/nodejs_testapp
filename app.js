@@ -57,3 +57,11 @@ app.put('/', (req, res)=>{
 app.delete('/', (req, res)=>{
   res.send('DELETE received!');
 })
+
+
+
+
+// Specify the route handler ------------------
+app.get('/scoter', function(req, res){
+  res.send('ok')
+});
